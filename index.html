@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gemagick — puzzle game for Android</title>
+<meta name="description" content="Link gems, restore a sanctum, and dig an endless mine. A puzzle game for Android.">
+<style>
+  :root {
+    --ground: #F4F7F8;
+    --ink: #10201F;
+    --ink-mid: #4A5F5E;
+    --ink-low: #6F8483;
+    --rule: #D5E0E0;
+    --accent: #0B7F86;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #04121A;
+      --ink: #E3EEEE;
+      --ink-mid: #A5BABA;
+      --ink-low: #7F9696;
+      --rule: #1B3340;
+      --accent: #5CD3DA;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 5rem 1.5rem 6rem; }
+  h1 { font-size: clamp(2.2rem, 7vw, 3rem); line-height: 1.05; letter-spacing: -.03em; margin: 0 0 .5rem; }
+  .tagline { font-size: 1.15rem; color: var(--ink-mid); margin: 0 0 3rem; max-width: 30rem; }
+  h2 { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-low); margin: 3rem 0 1rem; }
+  p { color: var(--ink-mid); }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: .875rem;
+    color: var(--ink-low);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Gemagick</h1>
+  <p class="tagline">Link gems, restore a ruined sanctum, and dig an endless mine. A puzzle game for Android.</p>
+
+  <h2>Status</h2>
+  <p>Gemagick is in preparation for release on Google Play.</p>
+
+  <footer>
+    <a href="./privacy.html">Privacy policy</a>
+    <span>© 2026 Ivan Fiszer</span>
+  </footer>
+
+</main>
+</body>
+</html>
